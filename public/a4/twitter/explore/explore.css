@@ -1,0 +1,13 @@
+.wd-icon-blue {
+  color: #0d6efd;
+}
+
+.wd-rocket {
+  position: relative;
+}
+
+.wd-rocket-text {
+  position: absolute;
+  top: 310px;
+  left: 10px;
+}

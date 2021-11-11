@@ -6,6 +6,7 @@ const TweetStats = ({ tweet }) => {
   const likeClickHandler = () => {
     dispatc({ type: 'like-tweet', tweet });
   };
+
   return (<div className="row mt-2">
     <div className="col">
       <i className="far fa-comment me-2"></i>

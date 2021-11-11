@@ -7,6 +7,7 @@ import A6Practice from "./components/a6/Practice";
 import A6Build from "./components/a6/Build";
 import A7Practice from "./components/a7/Practice";
 import A7Build from "./components/a7/Build";
+import A8Practice from "./components/a8/Practice";
 
 import { BrowserRouter, Route } from "react-router-dom";
 
@@ -23,11 +24,14 @@ function App() {
         <Route path="/a6/build" exact={true}>
           <A6Build />
         </Route>
-        <Route path={["/", "/a7", "/a7/practice"]} exact={true}>
+        <Route path={["/a7", "/a7/practice"]} exact={true}>
           <A7Practice />
         </Route>
         <Route path="/a7/twitter">
           <A7Build />
+        </Route>
+        <Route path={["/a8", "/a8/practice"]} exact={true}>
+          <A8Practice />
         </Route>
       </div>
     </BrowserRouter>

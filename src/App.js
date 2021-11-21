@@ -34,7 +34,7 @@ function App() {
         <Route path={["/a8", "/a8/practice"]} exact={true}>
           <A8Practice />
         </Route>
-        <Route path={"/a8/twitter"}>
+        <Route path={["/", "/a8/twitter"]}>
           <A8Build />
         </Route>
       </div>

@@ -8,6 +8,7 @@ import A6Build from "./components/a6/Build";
 import A7Practice from "./components/a7/Practice";
 import A7Build from "./components/a7/Build";
 import A8Practice from "./components/a8/Practice";
+import A8Build from "./components/a8/Build";
 
 import { BrowserRouter, Route } from "react-router-dom";
 
@@ -32,6 +33,9 @@ function App() {
         </Route>
         <Route path={["/a8", "/a8/practice"]} exact={true}>
           <A8Practice />
+        </Route>
+        <Route path={"/a8/twitter"}>
+          <A8Build />
         </Route>
       </div>
     </BrowserRouter>

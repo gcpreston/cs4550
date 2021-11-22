@@ -1,6 +1,6 @@
-import posts from './data/tweets.json';
+// import posts from './data/tweets.json';
 
-const tweets = (state = posts, action) => {
+const tweets = (state = [], action) => {
   switch (action.type) {
     case 'fetch-all-tweets':
       return action.tweets;

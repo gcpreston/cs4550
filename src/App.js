@@ -17,6 +17,8 @@ function App() {
   return (
     <BrowserRouter>
       <div className="container">
+        <Link to="/a6/practice">A6</Link> |
+        <Link to="/a7/practice">A7</Link> |
         <Link to="/a8/practice">A8</Link> |
         <Link to="/a9/practice">A9</Link>
 
